@@ -13,7 +13,7 @@
 ### 4.2.3 TCP 커넥션 핸드셰이크 지연
 
 - TCP 커넥션 핸드셰이크
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ee1c4f2-e9f8-46b3-9804-d108d54b3a71/Untitled.png)
+![Untitled](https://feel5ny.github.io/images/2019/24/6.jpg)
     
 1. 클라이언트는 새로운 TCP 커넥션 생성을 위해 작은 TCP 패킷(SYN플래그, 40~60바이트)을 서버에 보낸다.
 2. 서버가 커넥션을 받으면 커넥션 매개변수를 산출한 후, 커넥션 요청이 받아들여졌음을 의미하는 ‘SYN’과 ‘ACK’플래그가 포함한 TCP 패킷을 클라이언트에 보낸다.
@@ -31,7 +31,7 @@
 ### 4.2.5 TCP 느린 시작(slow start)
 
 - 느린시작과 혼잡제어
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ad0ec27-e398-4135-b396-93b23a96f1c7/Untitled.png)
+![Untitled](https://velog.velcdn.com/images%2Fmu1616%2Fpost%2F71182a17-fef8-4d94-938b-2a19a628b7f1%2Fimage.png)
     
 - 인터넷의 급작스러운 부하와 혼잡을 방지하기 위하여 TCP가 한번에 전송할 수 있는 패킷의 수를 제한한다.
 - HTTP 트랜잭션에서 전송할 데이터의 양이 많으면 모든 패킷을 한 번에 전송할 수 없기 때문에, 한 개의 패킷만 우선 전송하고 확인응답을 받은 후 2개의 패킷을 보낸다. 이런식으로 다시 응답을 받으면 총 4개의 패킷을 보낼 수 있다.
