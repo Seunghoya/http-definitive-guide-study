@@ -261,7 +261,7 @@
 - 오늘날 검색엔진들은 전 세계 웹 페이지들에 대해 _full-text indexes_ 라고 하는 복잡한 로컬 DB를 생성함
 - 이 색인은 웹의 모든 문서에 대해 일종의 카드 카탈로그처럼 동작함
 
-(이미지 첨부 - full-text indexes)
+<img width="501" alt="full-text indexes" src="https://user-images.githubusercontent.com/75058239/205493623-3f56247e-44c7-4706-b25d-69f94dbb1f3d.png">
 
 - 검색엔진 크롤러들은 웹페이지들을 수집해와서 full-text indexes에 추가함
 - 검색엔진 사용자들은 [hotbot](http://www.hotbot.com)이나 [google](http://www.google.com) 같은 웹 검색 게이트웨이를 통해 full-text indexes에 대한 질의를 보냄
