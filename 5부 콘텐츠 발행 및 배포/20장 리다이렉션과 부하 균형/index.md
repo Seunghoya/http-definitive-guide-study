@@ -117,7 +117,7 @@ SE는 NE에게 부하 균형 정보를 제공할 수 있는 방법을 제공하�
   - 브라우저들이 URL별로 접촉해야 할 프락시를 지정한 PAC 파일이라 부르는 특별한 파일을 찾도록 한다. 브라우저는 PAC 파일을 얻기 위해 지정된 서버에 접촉하도록 설정되어야 하고, 재시작할 때마다 PAC 파일을 가져온다.
   - PAC 파일은 `function FindProxyForURL(url, host)` 함수를 반드시 정의해야하는 자바스크립트 파일이다.
   - 브라우저는 요청된 URL마다 `return_value = FindProxyForURL(url_of_request, host_in_url)` 함수를 호출
-  - 프락시의 위치가 변경된 경우 이를 반영하기 위해 PAC 파일이 서버에서 업데이트되기 대문에 PAC는 브라우저가 자동으로 네트워크 아키텍처 안에서의 변경에 맞는 올바른 프락시에 접촉할 수 있도록 해줄 수 있다.ㅎ
+  - 프락시의 위치가 변경된 경우 이를 반영하기 위해 PAC 파일이 서버에서 업데이트되기 대문에 PAC는 브라우저가 자동으로 네트워크 아키텍처 안에서의 변경에 맞는 올바른 프락시에 접촉할 수 있도록 해줄 수 있다.
     ![프락시 자동 설정](https://user-images.githubusercontent.com/74203440/211302308-d7a20f98-1311-4711-9ac8-370d7fb4c9aa.jpeg)
 
 #### 20.5.3 웹 프락시 자동발견 프로토콜(Web Proxy Autodiscovery Protocol)
