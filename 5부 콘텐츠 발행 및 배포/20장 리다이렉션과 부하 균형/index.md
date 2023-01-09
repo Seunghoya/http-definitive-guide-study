@@ -24,7 +24,7 @@
   - PAC 파일은 `function FindProxyForURL(url, host)` 함수를 반드시 정의해야하는 자바스크립트 파일이다.
   - 브라우저는 요청된 URL마다 `return_value = FindProxyForURL(url_of_request, host_in_url)` 함수를 호출
   - 프락시의 위치가 변경된 경우 이를 반영하기 위해 PAC 파일이 서버에서 업데이트되기 대문에 PAC는 브라우저가 자동으로 네트워크 아키텍처 안에서의 변경에 맞는 올바른 프락시에 접촉할 수 있도록 해줄 수 있다.ㅎ
-    ![프락시 자동 설정]()
+    ![프락시 자동 설정](https://user-images.githubusercontent.com/74203440/211302308-d7a20f98-1311-4711-9ac8-370d7fb4c9aa.jpeg)
 
 #### 20.5.3 웹 프락시 자동발견 프로토콜(Web Proxy Autodiscovery Protocol)
 
